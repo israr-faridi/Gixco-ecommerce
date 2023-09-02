@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GIXCO</title>
+    <link rel="stylesheet" href="./css/card.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+    <div class="main_container">
+        <!-- ================
+             //HEADER START//
+             ================ -->
+        <header class="header">
+            <img src="./images/logo.png" class="logo" alt="logo">
+            <nav class="navbar">
+                <ul class="navbar_list">
+                    <li><a href="./index.html" class="navbar_link">Home</a></li>
+                    <li><a href="./shop.html" class="navbar_link">Products</a></li>
+                    <li><a href="./blog.html" class="navbar_link">Blog</a></li>
+                    <li><a href="./about.html " class="navbar_link">About</a></li>
+                    <li><a href="./contact.html" class="navbar_link">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="nav_right">
+                <a href="">Login</a>
+                <a href="">Register</a>
+                <a href="">cart (3)</a>
+                <div class="nav_right_icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <i class="fa-solid fa-user"></i>
+                </div>
+            </div>
+
+            <div class="mobile_icon">
+                <i class="fa-solid fa-bars"></i>
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+        </header>
+        <!-- ==============
+             //HEADER END//
+             ============== -->
+
+
+        <!-- ================
+             //BOTTOM START//
+             ================ -->
+        <div class="bottom">
+            <div class="bottom_main">
+                <!-- ////////////////
+                    ///card start///
+                   //////////////// -->
+                <div class="card">
+                    <!-- card left start -->
+                    <div class="cardleft">
+                        <div class="card_main_imag">
+                            <div class="img" id="img1">
+                                <a href=""><img src="./images/men_women_hot/men/men-1-1.jpg" alt=""></a>
+                            </div>
+                            <div class="img" id="img2">
+                                <a href=""><img src="./images/men_women_hot/men_hover/men-1-2.jpg" alt=""></a>
+                            </div>
+                            <div class="img" id="img3">
+                                <a href=""><img src="./images/men_women_hot/men/men-6-1.jpg" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="card_select_img">
+                            <div class="card_select" id="card1" onclick="one()">
+                                <img src="./images/men_women_hot/men/men-1-1.jpg" alt="">
+                            </div>
+                            <div class="card_select" id="card2" onclick="">
+                                <img src="./images/men_women_hot/men_hover/men-1-2.jpg" alt="">
+                            </div>
+                            <div class="card_select" id="card3" onclick="">
+                                <img src="./images/men_women_hot/men/men-6-1.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card end start -->
+
+                    <!-- card right start -->
+                    <div class="cardright">
+                        <div class="cardright_data">
+                            <h3>BOUBLE FABRIC BLAZER</h3>
+                            <div class="rating">
+                                <div class="icon">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star last"></i>
+                                </div>
+                                <p>3 Ratings <span>|</span></p>
+                                <p>Add Your Rating</p>
+                            </div>
+                            <div class="prize">
+                                <p>$220.99 <del>$238.99</del></p>
+                            </div>
+                            <div class="cardright_para">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, incididunt ut
+                                    labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                            </div>
+                            <!-- ITEM DATA START -->
+                            <div class="item_data">
+                                <div class="item_left">
+                                    <p>Brands:</p>
+                                    <p>Product Code:</p>
+                                    <p>Stock:</p>
+                                </div>
+                                <div class="item_right">
+                                    <p>Lorem amet</p>
+                                    <p>DU01512</p>
+                                    <p class="green">In Stock</p>
+                                </div>
+                            </div>
+                            <!-- ITEM DATA END -->
+
+                            <!-- PRODUCT COLOR START -->
+                            <div class="product_color">
+                                <div class="product_color_heading">
+                                    <p>Color <span>*</span></p>
+                                </div>
+                                <div class="product_color_box">
+                                    <a href="#">
+                                        <div class="red_box color_box"></div>
+                                    </a>
+                                    <a href="#">
+                                        <div class="green_box color_box"></div>
+                                    </a>
+                                    <a href="#">
+                                        <div class="yellow_box color_box"></div>
+                                    </a>
+                                    <a href="#">
+                                        <div class="black_box color_box"></div>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- PRODUCT COLOR END -->
+
+                            <!-- PRODUCT SIZE START -->
+                            <div class="product_color">
+                                <div class="product_color_heading">
+                                    <p>Size <span>*</span></p>
+                                </div>
+                                <div class="product_color_box">
+                                    <a href="#">
+                                        <div class="s_box color_box">S</div>
+                                    </a>
+                                    <a href="#">
+                                        <div class="m_box color_box">M</div>
+                                    </a>
+                                    <a href="#">
+                                        <div class="l_box color_box">L</div>
+                                    </a>
+                                    <a href="#">
+                                        <div class="xl_box color_box">Xl</div>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- PRODUCT SIZE END -->
+
+
+                            <!-- QUANTITY START -->
+                            <div class="quantity">
+                                <div class="quantity_para">
+                                    <p>Quantity:</p>
+                                </div>
+                                <div class="quantity_box">
+                                    <div class="quantity_sub quantity_select descrease">
+                                        <p>-</p>
+                                    </div>
+                                    <div class="quantitiy_number">
+                                        <p class="value">0</p>
+                                    </div>
+                                    <div class="quantity_add quantity_select increase">
+                                        <p>+</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <!-- QUANTITY END -->
+
+                            <!-- ADD TO CARD BOX START -->
+                            <div class="add_main">
+                                <div class="add_box add_black">
+                                    <p>ADD TO CART</p>
+                                </div>
+                                <div class="add_box add_mid">
+                                    <i class="fas fa-exchange-alt"></i>
+                                </div>
+                                <div class="add_box">
+                                    <i class="fa fa-heart"></i>
+                                </div>
+                            </div>
+                            <!-- ADD TO CARD BOX END -->
+
+                            <!-- SHARE IT START -->
+                            <div class="share">
+                                <p>Share it:</p>
+                                <a href="https://www.facebook.com/israr.faridi.90">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+
+                                <a href="mailto:israrhussainfaridi90@gmail.com" target="_blank" class="mail">
+                                    <i class="fa-regular fa-envelope"></i>
+                                </a>
+                                <a href="https://www.instagram.com/israr_faridi/" target="_blank">
+                                </a>
+                                <a href="https://www.instagram.com/israr_faridi/" target="_blank"><i
+                                        class="fab fa-instagram"></i></a>
+
+                                <a href="https://israr-resume.web.app/" style="margin-left: 20px;" target="_blank"><i
+                                        class="fa-solid fa-earth-americas"></i></a>
+
+
+                            </div>
+                            <!-- SHARE IT END -->
+                        </div>
+                    </div>
+                    <!-- card right end -->
+
+
+                </div>
+                <!-- //////////////
+                    ///card end///
+                   ////////////// -->
+
+
+                <!-- //////////////////
+                    ///Center start///
+                   ////////////////// -->
+                <div class="center">
+                    <!-- center_nav start -->
+                    <div class="center_nav">
+                        <div class="center_box center_box1" id="center_box1" onclick="descript()">
+                            <p>DESCRIPTION</p>
+                        </div>
+                        <div class="center_box" id="center_box2" onclick="review()">
+                            <p>REVIEWS (2)</p>
+                        </div>
+                        <div class="center_box" id="center_box3" onclick="tag()">
+                            <p>TAGS</p>
+                        </div>
+                    </div>
+                    <!-- center_nav start -->
+                    <!-- .containers start -->
+                    <div class="center_container">
+                        <!-- container 1 start -->
+                        <div class="container_1" id="container_1">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                                dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                                mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit
+                                voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo
+                                inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                        </div>
+                        <!-- container 1 end -->
+
+                        <!-- container 2 start -->
+                        <div class="container_2" id="container_2">
+                            <div class="reviews_box">
+                                <div class="reviews_img">
+                                    <img src="./images/review/1.png" alt="">
+                                </div>
+                                <div class="reviews_data">
+                                    <h4>Daniyal Rafiq - Agust 24, 2023</h4>
+                                    <div class="reviews_icon">
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                        nostrud exercitation.</p>
+                                </div>
+                            </div>
+                            <div class="reviews_box reviews_box2">
+                                <div class="reviews_img">
+                                    <img src="./images/review/2.png" alt="">
+                                </div>
+                                <div class="reviews_data">
+                                    <h4>Ilsa Farooq - Agust 23, 2023</h4>
+                                    <div class="reviews_icon">
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                        nostrud exercitation.</p>
+                                </div>
+                            </div>
+
+                            <!-- Add reviews start -->
+                            <div class="add_reviews">
+                                <div class="add_reviews_heading">
+                                    <h2>Add a Review</h2>
+                                    <div class="add_reviews_icon">
+                                        <p>Your Rating:</p>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Add reviews end -->
+
+                            <!-- Reviews form start -->
+                            <form action="#">
+                                <div class="your_review">
+                                    <p>Your Review</p>
+                                    <textarea rows="10"></textarea>
+                                </div>
+                                <div class="two_input">
+                                    <div class="name">
+                                        <p>Name</p>
+                                        <input type="text">
+                                    </div>
+
+                                    <div class="email">
+                                        <p>Email</p>
+                                        <input type="email">
+                                    </div>
+                                </div>
+                                <div class="form_btn">
+                                    <p>ADD YOUR REVIEW</p>
+                                </div>
+                            </form>
+                            <!-- Reviews form end -->
+
+                        </div>
+                        <!-- container 2 end -->
+
+                        <!-- container 3 start -->
+                        <div class="container_3" id="container_3">
+                            <input type="text">
+
+
+                            <a href="">
+                                <div class="btn">
+                                    <p>TAGS</p>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- container 3 end -->
+
+                    </div>
+                    <!-- .containers end -->
+                </div>
+                <!-- ////////////////
+                    ///Center end///
+                   //////////////// -->
+
+                <!-- ////////////////////////////
+                    ///Related Products Start///
+                   //////////////////////////// -->
+                <div class="related_product">
+                    <div class="related_product_heading">
+                        <h2>Related Products</h2>
+                    </div>
+                    <div class="related_product_main">
+                        <div class="swiper mySwiper">
+
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="grid_image">
+                                        <a href="./card.html"><img class="img1"
+                                                src="./images/men_women_hot/women/women-3-1.jpg" alt=""></a>
+                                    </div>
+                                    <div class="grid_data">
+                                        <div class="grid_para">
+                                            <p>Lorem Ipsum Dolor</p>
+                                            <p class="prize">$16.00 <del>$20.00</del> </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="grid_image">
+                                        <a href="./card.html"><img class="img3"
+                                                src="./images/men_women_hot/men/men-7-1.jpg" alt=""></a>
+                                    </div>
+                                    <div class="grid_data">
+                                        <div class="grid_para">
+                                            <p>Lorem Ipsum Dolor</p>
+                                            <p class="prize">$16.00 <del>$20.00</del> </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="grid_image">
+                                        <a href="./card.html"><img class="img2"
+                                                src="./images/men_women_hot/women/women-4-1.jpg" alt=""></a>
+                                    </div>
+                                    <div class="grid_data">
+                                        <div class="grid_para">
+                                            <p>Lorem Ipsum Dolor</p>
+                                            <p class="prize">$16.00 <del>$20.00</del> </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="grid_image">
+                                        <a href="./card.html"><img class="img5"
+                                                src="./images/men_women_hot/men/men-4-1.jpg" alt=""></a>
+                                    </div>
+                                    <div class="grid_data">
+                                        <div class="grid_para">
+                                            <p>Lorem Ipsum Dolor</p>
+                                            <p class="prize">$16.00 <del>$20.00</del> </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="grid_image">
+                                        <a href="./card.html"><img class="img8"
+                                                src="./images/men_women_hot/women/women-8-1.jpg" alt=""></a>
+                                    </div>
+                                    <div class="grid_data">
+                                        <div class="grid_para">
+                                            <p>Lorem Ipsum Dolor</p>
+                                            <p class="prize">$16.00 <del>$20.00</del> </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="swiper-slide">
+                                    <div class="grid_image">
+                                        <a href="./card.html"><img class="img4"
+                                                src="./images/men_women_hot/men/men-8-1.jpg" alt=""></a>
+                                    </div>
+                                    <div class="grid_data">
+                                        <div class="grid_para">
+                                            <p>Lorem Ipsum Dolor</p>
+                                            <p class="prize">$16.00 <del>$20.00</del> </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="grid_image">
+                                        <a href="./card.html"><img class="img6"
+                                                src="./images/men_women_hot/women/women-2-1.jpg" alt=""></a>
+                                    </div>
+                                    <div class="grid_data">
+                                        <div class="grid_para">
+                                            <p>Lorem Ipsum Dolor</p>
+                                            <p class="prize">$16.00 <del>$20.00</del> </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="grid_image">
+                                        <a href="./card.html"><img class="img7"
+                                                src="./images/men_women_hot/men/men-3-1.jpg" alt=""></a>
+                                    </div>
+                                    <div class="grid_data">
+                                        <div class="grid_para">
+                                            <p>Lorem Ipsum Dolor</p>
+                                            <p class="prize">$16.00 <del>$20.00</del> </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!-- <div class="swiper-pagination"></div> -->
+                        </div>
+                    </div>
+                </div>
+                <!-- //////////////////////////
+                    ///Related Products End///
+                   ////////////////////////// -->
+            </div>
+
+        </div>
+
+        <!-- ==============
+            //BOTTOM END//
+            ============== -->
+
+
+        <!-- ================
+                 //FOOTER START//
+                 ================ -->
+        <footer>
+            <div class="main_footer">
+                <!-- footer top start -->
+                <div class="footer_top">
+                    <ul class="footer_data">
+                        <li class="footer_data_main">
+                            <p>CUSTOMER SERVICES</p>
+
+                            <ul>
+                                <li><a href="#">Delivery & Returns</a></li>
+                                <li><a href="#">Trade Services</a></li>
+                                <li><a href="#">Privacy & Policy</a></li>
+                                <li><a href="#">FAQs</a></li>
+                                <li><a href="#">Term & Condition</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="footer_data_main">
+                            <p>About</p>
+                            <ul>
+                                <li><a href="#">News & Stories</a></li>
+                                <li><a href="#">Our Studio</a></li>
+                                <li><a href="#">Showroom</a></li>
+                                <li><a href="#">History</a></li>
+                                <li><a href="#">Term & Condition</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="footer_data_main">
+                            <p>SOCIAL MEDIA</p>
+                            <ul>
+                                <li><a href="https://www.facebook.com/israr.faridi.90" target="_blank">Facebook</a></li>
+                                <li><a href="#">Twitter</a></li>
+                                <li><a href="https://www.instagram.com/israr_faridi/" target="_blank">Instagram</a></li>
+                                <li><a href="https://pk.linkedin.com/in/israr-hussain-faridi-8a8b0225a">Linkedin</a>
+                                </li>
+                                <li><a href="#">Youtube</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="footer_data_main">
+                            <p>CUSTOMER SERVICES</p>
+                            <ul>
+                                <li><a href="#">Delivery & Returns</a></li>
+                                <li><a href="#">Trade Services</a></li>
+                                <li><a href="#">Privacy & Policy</a></li>
+                                <li><a href="#">FAQs</a></li>
+                                <li><a href="#">Term & Condition</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+
+                </div>
+                <!-- footer top end -->
+
+                <!-- footer bottom start -->
+                <div class="footer_bottom">
+                    <div class="footer_left">
+                        <p>COPYRIGHT © 2023 BY ISRAR</p>
+                    </div>
+                    <div class="footer_right">
+                        <p>CONNECT WITH US:</p>
+                        <a href="https://www.facebook.com/israr.faridi.90" target="_blank"><i
+                                class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/israr_faridi/" target="_blank"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="https://pk.linkedin.com/in/israr-hussain-faridi-8a8b0225a" target="_blank"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://israr-resume.web.app/" target="_blank"><i
+                                class="fa-solid fa-earth-americas"></i></a>
+
+                    </div>
+                </div>
+                <!-- footer bottom End -->
+            </div>
+        </footer>
+        <!-- ================
+                 //FOOTER END//
+                ================ -->
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/bfd4c68822.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="./javascript/card.js"></script>
+</body>
+
+</html>
